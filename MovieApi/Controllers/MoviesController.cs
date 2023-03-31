@@ -9,9 +9,6 @@ namespace MovieApi.Controllers
   [ApiVersion("1.0")]
   public class MoviesController : ControllerBase
   {
-
-    
-
     private readonly MovieApiContext _db;
 
     public MoviesController(MovieApiContext db)
